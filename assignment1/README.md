@@ -154,16 +154,16 @@ After excluding 150 shipments with missing weather, 5,885 rows remain, including
 
 ## Repository contents
 
-| File or folder                                         | Purpose                                                                   |
-| ------------------------------------------------------ | ------------------------------------------------------------------------- |
-| `MapleFreight_Delivery_Delay_Prediction_0960408.ipynb` | Analysis notebook with outputs                                            |
-| `README.md`                                            | Project overview, results, instructions, and AI usage                     |
-| `screenshots/slack_alert.png`                          | Required high-risk shipment alert evidence                              |
-| `screenshots/` timestamped PNGs                        | Historical training and model-metrics messages                          |
-| `.env.example`                                         | Safe Slack webhook configuration template                                 |
-| `requirements.txt`                                     | Python dependencies                                                       |
-| `.gitignore`                                           | Excludes secrets such as `.env`                                           |
-| `maplefreight_delivery_delay_dataset.csv`              | Shipment data used by the notebook                                        |
+| File or folder                                         | Purpose                                               |
+| ------------------------------------------------------ | ----------------------------------------------------- |
+| `MapleFreight_Delivery_Delay_Prediction_0960408.ipynb` | Analysis notebook with outputs                        |
+| `README.md`                                            | Project overview, results, instructions, and AI usage |
+| `screenshots/slack_alert.png`                          | Required high-risk shipment alert evidence            |
+| `screenshots/` timestamped PNGs                        | Historical training and model-metrics messages        |
+| `.env.example`                                         | Safe Slack webhook configuration template             |
+| `requirements.txt`                                     | Python dependencies                                   |
+| `.gitignore`                                           | Excludes secrets such as `.env`                       |
+| `maplefreight_delivery_delay_dataset.csv`              | Shipment data used by the notebook                    |
 
 ## Submission
 
