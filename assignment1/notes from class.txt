@@ -1,0 +1,32 @@
+PReprocessing:
+imputation
+zindex or iqr for outliers
+scaling techniques for outliers (standarization or normalization techniques) MInmax scaler standarscaler. (x-xmin/max-min) / (x-mean/std)
+why do we use these techniques?
+
+min-max scaling: (x-xmin)/(xmax-xmin) //not much outliers
+standardization: (x-mean)/std difference: min-max scaling brings values to a fixed range [0,1], while standardization centers values around the mean with unit variance. usually used to handle outliers.
+
+skewness -> kurtosis
+
+
+
+EDA GOAL:
+
+Discover insights
+finding disstributions
+finding correlations
+finding outliers
+
+
+Explainabillity: 
+use SHAP for model explainability
+
+decision trees: entropy (information gain) for splitting criteria, gini impurity for splitting criteria, and feature importance for explainability.
+
+random forests: feature importance for explainability, uses multiple decision trees to improve accuracy and control overfitting.
+gradient boosting: feature importance for explainability, builds trees sequentially to correct errors of previous trees, often achieves high predictive performance.
+XGBoost: feature importance for explainability, an optimized gradient boosting library that often achieves state-of-the-art predictive performance.
+LightGBM: feature importance for explainability, a gradient boosting framework that uses tree-based learning algorithms, often faster than XGBoost with comparable performance.
+CatBoost: feature importance for explainability, a gradient boosting library that handles categorical features automatically, often achieving competitive performance with minimal preprocessing.
+

@@ -1,2 +1,4 @@
 .env
 *.csv
+!assignment1/maplefreight_delivery_delay_dataset.csv
+**/.model_scorecard.json

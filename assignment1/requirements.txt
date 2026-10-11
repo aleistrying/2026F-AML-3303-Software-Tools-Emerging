@@ -1,4 +1,7 @@
 pandas
 matplotlib
-dotenv
+python-dotenv
 requests
+scikit-learn
+imbalanced-learn
+scipy
