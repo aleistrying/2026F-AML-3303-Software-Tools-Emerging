@@ -1,0 +1,53 @@
+## Class Activity — Build a Mini ML Workflow on AWS
+
+Goal:
+Hands on experience with AWS EC2 and S3 to understand how ML workloads run in the cloud.
+
+### Objectives
+
+- Launch and connect to an EC2 instance.
+- Upload and access data from S3.
+- Train a simple ML model on EC2.
+- Save trained model back to S3.
+
+### Step 1 – Launch EC2 Instance
+
+Go to AWS Console → EC2 → Launch Instance
+
+Choose:
+
+AMI: Ubuntu 22.04 LTS
+Type: t2.micro (free-tier eligible)
+Security Group: Allow SSH (port 22)
+
+Launch and connect via SSH:
+
+```ssh -i "key.pem" ubuntu@ec2-xx-xx-xx.compute.amazonaws.com```
+
+### Step 2 – Upload Data to S3
+
+Go to S3 → Create Bucket (e.g., mlops-lambton-bucket).
+- Upload iris.csv.
+
+Note down:
+Bucket name
+File key
+
+### Step 3 – Install Dependencies on EC2
+
+```
+sudo apt update
+sudo apt install python3-pip -y
+pip install pandas scikit-learn boto3 joblib
+```
+
+### Step 4 – Train and Store Model
+
+### Step 5 – Verify and Clean Up
+
+Check S3 → `rf_model.pkl` uploaded.
+
+Stop or terminate EC2 instance.
+
+Delete unnecessary files to stay within free tier.
+
