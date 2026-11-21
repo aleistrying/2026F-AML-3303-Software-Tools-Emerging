@@ -156,7 +156,7 @@ After excluding 150 shipments with missing weather, 5,885 rows remain, including
 
 | File or folder                                         | Purpose                                               |
 | ------------------------------------------------------ | ----------------------------------------------------- |
-| `MapleFreight_Delivery_Delay_Prediction_0960408.ipynb` | Analysis notebook with outputs                        |
+| `MapleFreight_Delivery_Delay_Prediction.ipynb` | Analysis notebook with outputs                        |
 | `README.md`                                            | Project overview, results, instructions, and AI usage |
 | `screenshots/slack_alert.png`                          | Required high-risk shipment alert evidence            |
 | `screenshots/` timestamped PNGs                        | Historical training and model-metrics messages        |
